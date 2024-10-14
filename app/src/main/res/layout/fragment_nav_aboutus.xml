@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".navAboutus">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/Red"
+        android:fontFamily="@font/yeonsung_regular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="164dp"
+        android:layout_height="145dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/header"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bakhtu" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="5dp"
+        android:text="Hello, my name is Muhammad Bakhat Nasar. I am a student at NUST SEECS, currently pursuing my degree in Computer Science. This project is a part of my Object-Oriented Programming course. Please try it out and enjoy its features. I am passionate about Artificial Intelligence and Machine Learning, and I aim to continue learning and exploring new technologies in the future."
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: bakhatnasar246@gmail.com"
+        android:textSize="16sp"
+        android:layout_below="@id/descriptionTextView"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +923101466390"
+        android:textSize="16sp"
+        android:layout_below="@id/emailTextView"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/linkedinButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/linkedin"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageButton
+        android:id="@+id/facebookButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/facebook"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/contactTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us:"
+        android:textSize="20sp"
+        android:fontFamily="@font/yeonsung_regular"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_above="@id/linkedinButton"
+        android:lineSpacingExtra="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Add more TextViews, ImageViews, or other UI components as needed -->
+
+</RelativeLayout>

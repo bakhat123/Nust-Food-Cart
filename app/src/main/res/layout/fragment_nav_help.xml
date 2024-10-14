@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navHelp">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helpPointsTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="117dp"
+        android:layout_marginBottom="54dp"
+        android:gravity="center"
+        android:text="Project By\nMuhammad Bakhat"
+        android:textColor="@color/Red"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textColor="@color/Red"
+        android:fontFamily="@font/yeonsung_regular"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/helpPointsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif-medium"
+
+        android:text="1. To use the app, click on the cart icon to view your cart.\n\n2. You can search for food items using the search feature.\n\n3. Confirm your order by proceeding to checkout.\n\n4. Navigate through different categories to find the desired food items.\n\n5. View and edit your profile information in the profile section.\n\n6. Save your favorite items for quick access later.\n\n7. Contact customer support for any assistance or queries.\n\n8. Explore promotional offers and discounts available in the app.\n\n9. Leave feedback and suggestions to help us improve the app.\n\n10. Check for updates regularly to access new features and improvements."
+        android:layout_below="@id/headerTextView"
+        android:layout_marginTop="18dp"
+        android:layout_marginHorizontal="16dp"/>
+
+</RelativeLayout>

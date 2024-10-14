@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment2"
+            android:icon="@drawable/nav_home"
+            android:title="Home" />
+
+
+
+    </group>
+
+<item android:title="Profile">
+    <menu>
+        <group>
+            <item
+                android:id="@+id/navProfile"
+                android:icon="@drawable/nav_profile"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/navFeeds"
+                android:icon="@drawable/feed"
+                android:title="Feed" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Log Out"/>
+
+        </group>
+    </menu>
+</item>
+
+    <item android:title="Communication">
+        <menu>
+            <group>
+
+                <item
+                    android:id="@+id/navHelp"
+                    android:icon="@drawable/nav_help"
+                    android:title="Help"/>
+
+                <item
+                    android:id="@+id/navAboutus"
+                    android:icon="@drawable/nav_aboutus"
+                    android:title="About Us"/>
+
+                <item
+                    android:id="@+id/navRateus"
+                    android:icon="@drawable/navstar"
+                    android:title="Rate us"/>
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

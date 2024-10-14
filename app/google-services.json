@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "889521896776",
+    "project_id": "nust-food-cart-aaffa",
+    "storage_bucket": "nust-food-cart-aaffa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889521896776:android:be848bb0271cca846e077d",
+        "android_client_info": {
+          "package_name": "com.example.layouts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf7JL5_Lan3_8PHSiL1VgHaPHG2WEqttM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

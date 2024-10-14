@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">layouts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="proceed">Proceed</string>
+    <string name="cart">Cart</string>
+    <string name="default_web_client_id">889521896776-rt5ifn8nv1800mimkagnhdefdn87rpup.apps.googleusercontent.com</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+</resources>
